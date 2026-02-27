@@ -1,5 +1,3 @@
-Create a readme file and answer this question on your own. Don’t copy-paste from Google or any AI chatbot.
-
 ## Answers to Questions
 
 ### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
