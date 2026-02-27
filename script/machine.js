@@ -96,8 +96,9 @@ function addToInterview(id) {
   newdiv.id = id + "-int";
 
   newdiv.innerHTML = `
-      <div class="border border-[#F1F2F4] p-5 rounded-lg space-y-3 bg-white"> 
+      <div class="flex justify-between border border-[#F1F2F4] p-5 rounded-lg space-y-3 bg-white"> 
     ${value}
+
     </div>
     `;
   add_in_tag(id);
@@ -131,7 +132,7 @@ function addTorejected(id) {
   newdiv.id = id + "-rej";
 
   newdiv.innerHTML = `
-      <div class="border border-[#F1F2F4] p-5 rounded-lg space-y-3 bg-white"> 
+      <div class="flex justify-between border border-[#F1F2F4] p-5 rounded-lg space-y-3 bg-white"> 
     ${value}
     </div>
      `;
