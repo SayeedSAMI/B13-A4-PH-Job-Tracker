@@ -1,11 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google fonts Geist -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- daisy ui & tailwind links  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+      * {
+        font-family: "Geist", sans-serif;
+      }
+    </style>
+
     <title>JOB TRACKER</title>
-</head>
-<body>      
-        
-</body>
+  </head>
+  <body class="bg-[#F8FAFC]">
+    <div class="max-w-7xl mx-auto mt-16 text-[#002C5C]">
+      <h1 class="font-bold text-2xl">Job Application Tracker</h1>
+      <div class="grid grid-cols-3 mt-5 gap-5">
+        <div class="border border-[#F1F2F4] p-5 rounded-lg">
+          <h3 class="font-normal text-xl">Total</h3>
+          <h1 class="font-bold text-3xl">8</h1>
+        </div>
+        <div class="border border-[#F1F2F4] p-5 rounded-lg">
+          <h3 class="font-normal text-xl">Interview</h3>
+          <h1 class="font-bold text-3xl">
+            <span class="text-green-500">0</span>
+          </h1>
+        </div>
+        <div class="border border-[#F1F2F4] p-5 rounded-lg">
+          <h3 class="font-normal text-xl">Rejected</h3>
+          <h1 class="font-bold text-3xl">
+            <span class="text-red-500">0</span>
+          </h1>
+        </div>
+      </div>
+      <div class="h-[1px] mt-16 mb-16 bg-[#E6E7E9]"></div>
+      <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-semibold">Available Jobs</h1>
+        <h2 class="font-bold text-sm text-gray-500">8 Jobs</h2>
+      </div>
+    </div>
+  </body>
 </html>
